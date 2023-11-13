@@ -127,14 +127,22 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ /*SOLUZIONE RESPONSIVE BONUS*/
+ @media screen and (min-width:768px){
+    .container{
+        max-width: 1000px;
+    }
+ }
+ /*FINE SOLUZIONE BONUS*/
+ 
  @media screen and (max-width:768px) {
     .container{
-        width: 768px;
+        max-width: 768px;
     }
  }
  @media screen and (max-width:480px){
     .container{
-        width: 480px;
+        max-width: 480px;
     }
     .row{
         display: block;
