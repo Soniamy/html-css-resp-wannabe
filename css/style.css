@@ -129,7 +129,34 @@ img {
  ************************************************/
  @media screen and (max-width:768px) {
     .container{
-        width: 800px;
+        width: 768px;
     }
  }
- 
+ @media screen and (max-width:480px){
+    .container{
+        width: 480px;
+    }
+    .row{
+        display: block;
+        
+    }
+    .lessons .col{
+        width: auto;
+    }
+    .steps .col{
+        width: auto;
+    }
+    .steps{
+        margin: 0;
+    }
+    .why-us{
+        background-color: rgb(34, 34, 34);
+    }
+    .why-us .col-left{
+        width: auto;
+    }
+    .why-us .col-right{
+        width: auto;
+    }
+
+ }
